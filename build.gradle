@@ -1,0 +1,21 @@
+group 'com.litereactions.algorithms'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'edu.princeton.cs:algs4:1.0.2'
+}
