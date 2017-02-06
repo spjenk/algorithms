@@ -4,6 +4,7 @@ version '1.0-SNAPSHOT'
 buildscript {
     repositories {
         jcenter()
+        mavenCentral()
     }
 }
 
@@ -14,8 +15,10 @@ sourceCompatibility = 1.8
 
 repositories {
     jcenter()
+    mavenCentral()
 }
 
 dependencies {
     compile 'edu.princeton.cs:algs4:1.0.2'
+    testCompile 'junit:junit:4.12'
 }
